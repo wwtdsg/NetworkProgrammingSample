@@ -1,0 +1,16 @@
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Received: By test server from somewhere
+Received: By another server from my mechine
+To: recipient@example.com
+From: test sender <sender@example.com>
+Subject: Test message, chapter 9
+Date: Tue, 16 Dec 2014 11:36:46 +0800
+Message-ID: <20141216033646.5504.66741@wang-Vostro-1088>
+
+Hello,
+
+This is a test message from chapter 9, enjoy it.
+
+-- Anonymous

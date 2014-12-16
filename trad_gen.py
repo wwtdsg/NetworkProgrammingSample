@@ -14,5 +14,7 @@ msg['From'] = 'test sender <sender@example.com>'
 msg['Subject'] = 'Test message, chapter 9'
 msg['Date'] = Utils.formatdate(localtime=1)
 msg['Message-ID'] = Utils.make_msgid()
-
+fm = open('message.txt', 'w')
+fm.write(msg.as_string())
+fm.close()
 print msg.as_string()
