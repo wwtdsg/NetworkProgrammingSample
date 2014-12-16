@@ -21,3 +21,7 @@ print 'Message Body:'
 print
 
 print msg.get_payload()
+print "-" * 78
+# 下面是以一种规则字典访问，当key重复出现时，只能得到一个value
+# for key in msg.keys():
+#     print key, ':', msg[key]
