@@ -19,5 +19,5 @@ dateval = getdate(msg)
 if dateval is None:
     print 'No valid date was found'
 else:
-    print 'Message was sent on ', time.strftime('%A, %B, %d, %Y at\
+    print 'Message was sent on ', time.strftime('%A, %B %d %Y at\
             %I:%M %p', time.localtime(dateval))
